@@ -148,3 +148,41 @@ nav{
     font-weight: bold;
     text-align: end;
 }
+
+/* CTA section style */
+.cta-section{
+    padding: 6rem 0rem;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 2rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-title{
+    font-size: 1.25rem;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta-subtext{
+    color: #e5e7eb;
+}
+
+.cta-section button{
+    background: transparent;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+}
+
+/* Footer section style */
+footer{
+    background-color: #1f2937;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: #f9faf8;
+}
