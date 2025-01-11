@@ -131,3 +131,20 @@ nav{
 .info-img img{
     width: 100%;
 }
+
+/* Quote section style */
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 6rem 0rem;
+}
+
+.quote{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author{
+    font-weight: bold;
+    text-align: end;
+}
