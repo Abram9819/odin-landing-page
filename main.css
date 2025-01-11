@@ -89,3 +89,45 @@ nav{
 .hero-img img{
     width: 100%;
 }
+
+/* Informations section style */
+.informations{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.informations h3{
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.informations-container{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.information p{
+    text-align: center;
+    font-size: 1.125rem;
+    color: #1f2937;
+}
+
+.info-img{
+    flex: 1;
+}
+
+.info-img img{
+    width: 100%;
+}
