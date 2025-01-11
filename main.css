@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Gloabal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Utiliities classes */
+.container{
+    max-width: 1020px;
+    padding: 0px 1rem;
+    margin: 0 auto;
+}
+
+
+/* Header style */
+header{
+    background-color: #1f2937;
+    padding-bottom: 6rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3.75rem;
+}
+
+.hero-text p{
+    font-size: 1.125rem;
+    color: #e5e7eb;
+}
+
+.hero-text h3{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero button{
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    margin-top: 0.75rem;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.hero-img img{
+    width: 100%;
+}
